@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id=".root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #86e4ff;">
+         <children>
+            <ImageView fitHeight="407.0" fitWidth="600.0" layoutY="-4.0">
+               <image>
+                  <Image url="@/View/resources/GOT/d.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="316.0" text="Best First Search , Breadth First Search, Depth First Search" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="215.0" layoutY="107.0" prefHeight="47.0" prefWidth="158.0" text="Doron Shamai" textFill="#fcfcfc" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold Italic" size="23.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Label contentDisplay="CENTER" layoutX="27.0" layoutY="110.0" prefHeight="47.0" prefWidth="158.0" text="Michal Talmor" textFill="#fcfcfc" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="148.0" layoutY="77.0" prefHeight="47.0" prefWidth="119.0" text="Creators" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="253.0" text="we created the maze by MyMaze with DFS algorithem" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="282.0" text="The maze can be solved using several different algorithms :" textFill="#fafafa">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
